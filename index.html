@@ -2,18 +2,10 @@
   <head>
     <title>WEBPAGE</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body
-    style="
-      text-align: center;
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-position: center;
-      height: 150vh;
-      background-image: url('https://img.lovepik.com/background/20211029/medium/lovepik-wedding-wedding-invitation-background-design-psd-image_605651627.jpg');
-    "
-  >
-    <h2 style="padding-top: 140">WEDDING INVITATION</h2>
+  <body>
+    <h2>WEDDING INVITATION</h2>
     <h3>KIARA WEDS SIDDHART</h3>
     <p>Request the pleasure of your company at the ceremony of their wedding</p>
     <table border="1" cellpadding="5" cellspacing="5" align="center">
@@ -44,4 +36,38 @@
     </table>
     <p>Reception to follow</p>
   </body>
+
+  <style>
+    body {
+      font-size: 16px;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center;
+      height: 150vh;
+      background-image: url("https://img.lovepik.com/background/20211029/medium/lovepik-wedding-wedding-invitation-background-design-psd-image_605651627.jpg");
+    }
+
+    h2 {
+      padding-top: 200;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 12px;
+
+        text-align: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        height: 97vh;
+        background-image: url("https://img.lovepik.com/background/20211029/medium/lovepik-wedding-wedding-invitation-background-design-psd-image_605651627.jpg");
+      }
+
+      h2 {
+        padding-top: 100;
+      }
+    }
+  </style>
 </html>
