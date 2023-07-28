@@ -1,0 +1,16 @@
+name = input("Enter your name: ")
+name = name.upper()
+if name=="SHWETA":
+ print("Loves shoes ")
+elif name=="JULIET":
+ print ("Hey JULIET you like CAKE ")
+elif name=="HAYDEN":
+ print ("Hey HAYDEN you like FOOD ")
+elif name=="FRANKLY":
+ print ("Hey FRANKLY you like SHOES ")
+elif name=="JANITA":
+ print ("Hey JANITA you like CHICKEN ")
+else:
+     print ("Hey {} i dont know what you like".format(name) )
+     want = input("What do you like? ")
+     print (want)
